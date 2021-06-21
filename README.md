@@ -1,5 +1,21 @@
 # Page My Team
 
+[![License: Mozilla 2.0(https://img.shields.io/badge/license-Mozilla%202.0-blue.svg)](https://opensource.org/licenses/MPL-2.0)
+
+  ## Description
+
+  This application allows the user to create a finished HTML page for their employee roster. 
+
+  ## Table of Contents
+
+  * [Acceptance Criteria](#acceptance)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Testing](#testing)
+  * [License](#license)
+  * [Questions](#questions)
+
 ## Acceptance Criteria
 - GIVEN a command-line application that accepts user input
 - WHEN I am prompted for my team members and their information
@@ -18,3 +34,32 @@
 - THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 - WHEN I decide to finish building my team
 - THEN I exit the application, and the HTML is generated
+
+## Installation
+
+  Follow these steps for installing this project:
+
+  - Clone the repository - Install the inquirer package using npm install inquirer
+
+  ## Usage
+
+  After the installation steps you will use the command line to open the root directory of the project and run the app with node index. Follow the prompts o build the page with data for each member of your team. Once complete the finished page will be written to the 'dist' folder.
+
+  ## Contributing
+
+  This project is not open for contributions at this time.
+
+  ## Testing
+
+  Use the following for testing this project:
+
+  Install the jest module and run the command npm run test.
+
+  ## License
+
+  This project is licensed with Mozilla Public License 2.0.
+
+  ## Questions
+
+  If you have questions about this project please contact me at [crawleyj2@gmail.com](mailto:crawleyj2@gmail.com).
+  More of my work can be found on GitHub at [crawleyj2](https://github.com/crawleyj2)

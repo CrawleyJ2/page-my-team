@@ -7,6 +7,7 @@ const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 // html template
+const pageTemplate = require('./lib/page-template');
 // empty array for employee forms
 const employeeArray = [];
 
@@ -138,6 +139,6 @@ const pageCreation = (pageContent) => {
 console.log(`Welcome to the Team Profile Page Maker!`);
 
 userPrompt()
-    // .then push data to generate page
-    // .then([pendinghtml]) => pageCreation([pendinghtml])
-    // .catch(err => console.log(err));
+    .then(teamData => pageTemplate(teamData))
+    .then(completedHTML => pageCreation(completedHTML))
+    .catch(err => console.log(err));

@@ -1,4 +1,9 @@
-const pageTemplate = () => {
+const Employee = require('../lib/Employee');
+const Manager = require('../lib/Manager');
+const Engineer = require('../lib/Engineer');
+const Intern = require('../lib/Intern');
+
+const pageTemplate = (teamData) => {
     return `
     <!DOCTYPE html>
     <html lang="en">
@@ -15,3 +20,5 @@ const pageTemplate = () => {
     </html>
     `;
 }
+
+module.exports = pageTemplate;
