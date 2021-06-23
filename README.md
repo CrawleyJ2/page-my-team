@@ -39,11 +39,11 @@
 
   Follow these steps for installing this project:
 
-  - Clone the repository - Install the inquirer package using npm install inquirer
+  - Clone the repository - Install the inquirer package using `npm install inquirer`
 
   ## Usage
 
-  After the installation steps you will use the command line to open the root directory of the project and run the app with node index. Follow the prompts o build the page with data for each member of your team. Once complete the finished page will be written to the 'dist' folder.
+  After the installation steps you will use the command line to open the root directory of the project and run the app with `node index`. Follow the prompts o build the page with data for each member of your team. Once complete the finished page will be written to the 'dist' folder.
 
   ## Contributing
 
